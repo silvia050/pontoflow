@@ -1,0 +1,37 @@
+# ===========================================
+# PontoFlow - arquivos ignorados pelo Git
+# ===========================================
+
+# Dependências (recriadas com npm install)
+node_modules/
+
+# Arquivos compilados / gerados
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# Variáveis de ambiente (senhas, chaves, URL do banco)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testes
+coverage/
+
+# Deploy
+.vercel
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.idea/
